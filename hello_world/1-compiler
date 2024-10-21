@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -z "$CFILE" ] && { echo "Error: CFILE not set." && exit 1; } || gcc -c "$CFILE" -o "${CFILE%.c}.o" && echo "${CFILE%.c}.o created."
+gcc -S "$CFILE" -o "${CFILE%.c}.s" 
