@@ -1,14 +1,16 @@
-/*
- * By Luis Feliciano
- */
 #include <stdio.h>
+
 /**
- * main - Prints "with proper grammar, but the outcome is a piece of art", followed by a new line.
+ * main - Prints a sentence
  *
- * Return: Always return 0
+ * Description: This program prints a specific sentence
+ * with proper grammar to the standard output.
+ *
+ * Return: Always returns 0 (Success)
  */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
+
