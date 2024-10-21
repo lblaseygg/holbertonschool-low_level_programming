@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main = entry point of the program
+ * main: Prints "Programming is like building a multilingual puzzle" followed by a new line.
  *
- * This program prints a specific message
+ * Description: This program prints a specific message
  * to the standard output using the puts function.
  *
- * Return 0 if succesful
+ * Return: ALways 0.
  */
 int main(void)
 {
