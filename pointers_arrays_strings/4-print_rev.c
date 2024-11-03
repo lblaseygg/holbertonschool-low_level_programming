@@ -5,17 +5,21 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: The string to be printed.
+ * print_rev - prints a string in reverse
+ * @s: the string to be printed
  */
 void print_rev(char *s)
 {
 	int len = 0, index = 0;
-	while (s[index]) 
+
+
+	while (s[index])
 	{
 		len++;
 		index++;
 	}
+
+
 
 	for (index = len - 1; index >= 0; index--)
 	{
@@ -24,4 +28,3 @@ void print_rev(char *s)
 
 	_putchar('\n');
 }
-
